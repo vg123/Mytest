@@ -1,0 +1,53 @@
+//quick sort....
+(pivot selection)->(make partition)->(sort);
+unstable sort.
+best & average case: O(nlogn);
+worst case: O(n*n);
+
+//Heap sort....
+best case =worst case ==O(nlogn);
+
+// count sort...
+ O(max(n,max(arr,n)));
+ 
+ 
+//Radix sort....
+used count sort...
+
+O((n+b)*d);
+
+b=base of representation
+k=maximum number in arr
+d=logk base b;
+limitation k<=n^c;
+
+O((n+b)*logk);
+O(n*logn); if b=n;
+
+//selection sort...
+O(n*(n-1));
+as we selecte min number from n-1/n-2/n-3/n-4/.../2 numbers one by one and  
+if we pass sorted array in this it will take same time as usually takes.
+//Bubble sort...
+O(n*(n-1));
+optimised algorithm take 
+O(k*(n-1)); k is while loop depended;
+
+if we pass sorted array in optimised algor it will take O(n);
+
+//Insertion sort....
+1+2+3+4...+n-1=n*(n-1)/2;
+O(n*n);
+
+O(n)(it take minimum time when array is allready sorted and it is prefred for it
+O(n*n) it take maximum time when array is reversley sorted.
+
+//Merge sort...
+divide and conqure rule based algorithm.
+recursively solve it.
+
+stable sorting.
+
+THETA(nlogn) is all cases.
+
+

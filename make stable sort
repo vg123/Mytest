@@ -1,0 +1,5 @@
+inline bool cmp(pair a, pair b) {
+  return a.first < b.first || (a.first == b.first && a.second < b.second);
+}
+
+And use `std::sort(a, a + n, cmp);
